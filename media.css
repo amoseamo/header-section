@@ -1,0 +1,130 @@
+@media(min-width:300px){
+    .nav-bar{
+    display:none;
+}
+.nav-bar-btn{
+    display:block;
+    z-index:9999;
+}
+.head-col1{
+    padding:10px;
+}
+.mobile-navbar{
+    background-color:#fff;
+    width:90%;
+    height:80vh;
+    padding:20px;
+    box-shadow:0 0 70px 50px #000; 
+    border-radius:10px;
+    overflow:scroll;
+    position:absolute;
+    top:100%;
+    right:5%;
+    display:none;
+}
+.mobile-dropdown-menu a{
+    color:#000 !important;
+}
+.mobile-dropdown-menu a:hover{
+    color:#ffc451 !important;
+}
+.mobile-navbar li:hover a{
+    color:#ffc451;
+}
+.nav-bar-btn:hover + .mobile-navbar{
+    display:block;
+}
+.mobile-dropdown-menu{
+    display:none;
+}
+.mobile-dropdown:hover .mobile-dropdown-menu{
+    display:block;
+}
+.mobile-deepdropdown-menu{
+    display:none;
+}
+.mobile-deepdropdown:hover .mobile-deepdropdown-menu{
+    display:block;
+}
+.mobile-nav-bar-list li{
+    list-style-type:none;
+    padding:15px;
+}
+.mobile-nav-bar-list li a{
+    text-decoration:none;
+    color:#000;
+    font-size:15px;
+    font-weight:600;
+}
+}
+@media(min-width:600px){
+    .nav-bar{
+    display:none;
+}
+.nav-bar-btn{
+    display:block;
+    z-index:9999;
+}
+.head-col1{
+    padding:10px;
+}
+.mobile-navbar{
+    background-color:#fff;
+    width:90%;
+    height:80vh;
+    padding:20px;
+    box-shadow:0 0 70px 50px #000; 
+    border-radius:10px;
+    overflow:scroll;
+    position:absolute;
+    top:100%;
+    right:5%;
+    display:none;
+}
+.mobile-dropdown-menu a{
+    color:#000 !important;
+}
+.mobile-dropdown-menu a:hover{
+    color:#ffc451 !important;
+}
+.mobile-navbar li:hover a{
+    color:#ffc451;
+}
+.nav-bar-btn:hover + .mobile-navbar{
+    display:block;
+}
+.mobile-dropdown-menu{
+    display:none;
+}
+.mobile-dropdown:hover .mobile-dropdown-menu{
+    display:block;
+}
+.mobile-deepdropdown-menu{
+    display:none;
+}
+.mobile-deepdropdown:focus .mobile-deepdropdown-menu{
+    display:block;
+}
+.mobile-nav-bar-list li{
+    list-style-type:none;
+    padding:15px;
+}
+.mobile-nav-bar-list li a{
+    text-decoration:none;
+    color:#000;
+    font-size:15px;
+    font-weight:600;
+}
+}
+@media(min-width:992px){
+
+.nav-bar{
+    display:block;
+}
+.nav-bar-btn{
+    display:none;
+}
+.nav-links{
+    padding:20px;
+}
+}
